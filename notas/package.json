@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "--host",
-    "start": "sirv public  --host"
+    "start": "sirv public  --host",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
