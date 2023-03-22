@@ -9,7 +9,7 @@
 	$:count = notes.length;
 	onMount(async () => {
 		//const response = await fetch('/api/api.json');
-		const response = await fetch('http://localhost:3001');
+		const response = await fetch('https://github.com/SalmaVH10/Hola-Svelte');
 		const data = await response.json(); 
 		notes = [...data.notes];
 		copyNotes = [...data.notes];
